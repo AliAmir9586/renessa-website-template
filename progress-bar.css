@@ -1,0 +1,34 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+.circular-progress{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: conic-gradient(   rgb(57, 204, 204) 290deg, #faeeee   70deg );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(57, 204, 204);
+}
+.text{
+    font-size: 30px;
+    font-weight: 400;
+    color: #606060;
+}
